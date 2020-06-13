@@ -132,7 +132,7 @@ table {
   box-sizing: border-box;
 }
 
-/* I input this container */
+/* My code for header */
 .head-container {
   display: flex;
   justify-content: space-between;
@@ -164,7 +164,7 @@ header nav a {
   width: 800px;
 }
 
-/* End of my header code */
+/* End of my code for header */
 
 html,
 body {
@@ -231,6 +231,39 @@ p {
   align-items: center;
   justify-content: center;
 }
+
+/* My code for the boxes */
+#one {
+  background-color: teal;
+}
+#two {
+  background-color: gold;
+}
+#three {
+  background-color: cadetblue;
+}
+#four {
+  background-color: coral;
+}
+#five {
+  background-color: crimson;
+}
+#six {
+  background-color: forestgreen;
+}
+#seven {
+  background-color: darkorchid;
+}
+#eight {
+  background-color: hotpink;
+}
+#nine {
+  background-color: indigo;
+}
+#ten {
+  background-color: dodgerblue;
+}
+/* End of my code for boxes */
 
 .bottom-content {
   display: flex;
