@@ -136,16 +136,15 @@ table {
 .head-container {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   width: 800px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 header nav {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 10px 0.5%;
   font-size: 14px;
 }
 
@@ -154,6 +153,15 @@ header nav a {
 }
 
 .lambda-logo {
+}
+
+.jumbo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 800px;
 }
 
 /* End of my header code */
