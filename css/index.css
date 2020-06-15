@@ -272,6 +272,11 @@ p {
   display: flex;
 }
 
+.about {
+  padding: 0px 8px 20px;
+  border-bottom: 1px dashed black;
+}
+
 /* End of Code for About page */
 
 .bottom-content {
