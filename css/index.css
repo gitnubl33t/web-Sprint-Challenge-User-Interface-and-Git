@@ -152,9 +152,6 @@ header nav a {
   text-decoration: none;
 }
 
-.lambda-logo {
-}
-
 .jumbo-img,
 .about-img {
   display: block;
@@ -281,6 +278,8 @@ p {
 .learn-more {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .img-container {
@@ -290,7 +289,15 @@ p {
   align-items: flex-start;
   padding: 20px 20px;
   justify-content: center;
+  /* border-bottom: 1px dashed black; */
+}
+
+.img-container:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
   border-bottom: 1px dashed black;
+  width: 98%;
 }
 
 .img-container h2 {
